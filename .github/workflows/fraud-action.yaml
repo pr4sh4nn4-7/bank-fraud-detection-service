@@ -27,7 +27,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ secrets.DOCKER_USERNAME }}/account-service
+          images: ${{ secrets.DOCKER_USERNAME }}/fraud-detection-service
           tags: |
             type=raw,value=latest
             type=sha
